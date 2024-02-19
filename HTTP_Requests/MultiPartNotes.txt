@@ -1,0 +1,35 @@
+The challenge 28 is an interesting one wherein you have to send a MULTIPART request.
+A multi-part request can only be send if you are sneding some kind of an attachment or file. Hence, we create a file called --> test.txt
+And use that to send it in our request.
+
+REQUESTS MODULE
+-----------------
+Python Request handles this very beautifully. To send a multi-part request all you need to do is specify a dictionary like this
+files = {"file":open("targetfile","rb")}
+
+And then you make the request with this dictionary
+r = requests.post(url,files=files)
+
+This will send out a multi-part request. This video beautifully captures it --> https://www.youtube.com/watch?v=J77cz4mqolA
+In fact in the video they also talk about how you can send multiple files in the request by using Tuples inside of the dictionary. Look at the vide in case if you need that.
+
+
+SOCKET MODULE
+--------------
+Accomplishing the same taks in SOCKET module is a little complex. We need to tackle following items. 
+1. You need to construct a complete HTTP request with HEADERS + BODY
+2. A key component is the generation of the random boundary identifier
+3. The boundary identifier can be generated like this --> boundary = binascii.hexlify(os.urandom(16)).decode('ascii') 
+4. There is a nice article that talks about some of these issues --> https://julien.danjou.info/handling-multipart-form-data-python/
+5. The boundary identifier is a 32 character long string which will be used in the Headers and in demarcating the object in the BODY
+6. You need to open a file handle to the file being sent i.e. test.txt with open("test.txt","r") -- since we are encoding our header & body we don't need to open with "rb"
+7. Construction of BODY
+	a. Body start with --> --{boundary identifier generated earlier}
+	b. It requires a header --> Content-Disposition: form-data; name="file"; filename="test.txt"; you need to escape quotes
+	c. The name & filename parameters correspond to the dictionary values of REQUEST module. In fact it was from there that I reconstructed this Header Value.
+	d. Next is an emty line
+	e. Next is the file that we want to send --> You need to invoke the read() method in order to send the actual file!
+	f. Closing happens exactly like this --> --{boundary value generated earlier}--
+8. The HEADERS have more or less the same kind of behavior that we have seen them to possess
+9. Notably, we send the Header --> Connection-Type: multipart/form-data; {boundary value generated earlier}
+10. Rest of the processing is typical of how we send these requests. 

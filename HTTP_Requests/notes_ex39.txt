@@ -1,0 +1,6 @@
+In order to escape " inside of a JSON you need to have \"
+Hence, when we try to send data through socket we have to send the following
+
+"{\"key\":\"please\\\"\"}"
+
+there are 3 \ after please because first it escapes \ itself and next to escape " and finally to close " for JSON definition

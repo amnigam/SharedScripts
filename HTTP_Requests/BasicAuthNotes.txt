@@ -1,0 +1,11 @@
+When sending out basic authentication, you can use the HTTPBasicAuth module from requests.auth 
+You send it somewhat like this
+
+r = requests.get(url,auth=HTTPBasicAuth('user','pass'))
+where user --> Username
+and passs --> Password
+
+This will then come appended as a Header llike this
+{'Authorization': 'Basic a2V5OnBsZWFzZQ=='}
+
+After Basic is the base64 encoded version of user:pass

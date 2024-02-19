@@ -1,0 +1,12 @@
+Objective: In this challenge, your goal is to send a POST request to /pentesterlab with the body of the request containing: <key><value>please</value></key>.
+
+Though this problem is relatively easy however there are a few things to note about it.
+1. The data that we are sending in the body is an XML
+2. This data can be sent with Content-Type: application/x-www-form-urlencoded and the corresponding body component for the request.
+3. This can also be sent as an XML file. For that you will need Content-Type: form/multipart; boundary={} header
+4. I have solved this problem using all 3 methods
+	a. ex31a.py --> Using SOCKET + Content-Type: application/x-www-form-urlencoded
+	b. ex31b.py --> Using Requests
+	c. ex31c.py --> Using SOCKET + Content-Type: form/multipart; boundary={}
+
+
