@@ -51,6 +51,8 @@ if args.domain:
             cracked(n,e,p,q)  
         except KeyboardInterrupt as e:          # Exit gracefully if user doesn't want to sit for centuries while cracking RSA :)
             print('User Interrupt received. Exiting...')    
+        except Exception as e:
+            print(f'Exception occurred while trying to CRACK..... {e}') 
 
 if args.key: 
     # Initialize some of the key cryptographic elements of the key. 
