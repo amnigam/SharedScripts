@@ -1,0 +1,8 @@
+C:\Users\Amit Nigam\OneDrive\Penetration Testing\SharedScripts\UnquotedServicePathPE\UnquotedService\UnquotedService\bin\Debug\UnquotedService.exe.config
+C:\Users\Amit Nigam\OneDrive\Penetration Testing\SharedScripts\UnquotedServicePathPE\UnquotedService\UnquotedService\bin\Debug\UnquotedService.exe
+C:\Users\Amit Nigam\OneDrive\Penetration Testing\SharedScripts\UnquotedServicePathPE\UnquotedService\UnquotedService\bin\Debug\UnquotedService.pdb
+C:\Users\Amit Nigam\OneDrive\Penetration Testing\SharedScripts\UnquotedServicePathPE\UnquotedService\UnquotedService\obj\Debug\UnquotedService.csproj.AssemblyReference.cache
+C:\Users\Amit Nigam\OneDrive\Penetration Testing\SharedScripts\UnquotedServicePathPE\UnquotedService\UnquotedService\obj\Debug\UnquotedService.csproj.SuggestedBindingRedirects.cache
+C:\Users\Amit Nigam\OneDrive\Penetration Testing\SharedScripts\UnquotedServicePathPE\UnquotedService\UnquotedService\obj\Debug\UnquotedService.csproj.CoreCompileInputs.cache
+C:\Users\Amit Nigam\OneDrive\Penetration Testing\SharedScripts\UnquotedServicePathPE\UnquotedService\UnquotedService\obj\Debug\UnquotedService.exe
+C:\Users\Amit Nigam\OneDrive\Penetration Testing\SharedScripts\UnquotedServicePathPE\UnquotedService\UnquotedService\obj\Debug\UnquotedService.pdb
