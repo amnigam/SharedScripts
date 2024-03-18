@@ -3,16 +3,6 @@ from pprint import pprint as pp
 import crtobj
 import argparse 
 
-def writeToFile(fname,listObj): 
-    with open(fname,"w") as f:
-        for item in listObj:
-            if type(item) != 'str':
-                f.write(str(item))
-                f.write('\n')
-            else: 
-                f.write(item.strip())
-                f.write('\n')
-
 url = 'https://crt.sh'
 
 # Setting up the script's options. 
@@ -23,36 +13,35 @@ parser.add_argument('-o', '--output', type=str, help='Output File Name')
 args = parser.parse_args()
 
 if args.commonName:
-    # print(args.expired)
     # The query structure is for a very basic query in JSON format for non-expired certificates for a given Common Name. 
-    q = {
-        "CN": args.commonName,
-        "output": "json",
-        "exclude": args.expired
-    }
+    if (args.expired):
+        q = {
+            "CN": args.commonName,
+            "output": "json",
+            "exclude": "expired"
+        }
+    else:
+        q = {
+            "CN": args.commonName,
+            "output": "json"
+        }
 
     r = requests.get(url,params=q) 
     data = r.text
     c = crtobj.Cert(data) 
     d = c.extractDomains()
-    # pp(json.loads(data))
     pp(d)
 
-# [id.append(x['id']) for x in json.loads(data) if x['id'] not in id]
+    cont = input('Do you wish to continue to extract certificates? (y/Y)')
 
-# writeToFile('domain-list.txt', domains)
-# writeToFile('crt-id.txt', id) 
+    if cont.upper() == 'Y':
+        crtid = c.getcrtid()
+        for cid in crtid:
+            q = {
+                "d":cid,        # To download certificate you need to send query parameter d with CRTID. 
+            }
 
-# cont = input('Do you wish to continue to extract certificates? (y/Y)')
-# if cont.upper() == 'Y':
-#     with open('crt-id.txt','r') as f:
-#         crtid = f.readlines()
-    
-#     for cid in crtid:
-#         x = cid.strip()
-#         q = {
-#             "id":int(x),
-#         }
-
-#         r = requests.get(url, params=q) 
-#         print(r.text)
+            r = requests.get(url, params=q, stream=True)    # Use STREAM to download. 
+            if r.status_code == 200:
+                with open(f'{cid}-cert.crt', 'wb') as b:    # Write it into its own certificate file. 
+                    b.write(r.raw.read())
