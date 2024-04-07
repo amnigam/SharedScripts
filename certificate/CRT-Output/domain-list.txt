@@ -1,0 +1,3 @@
+*.narayanahealth.org
+*.narayanahealth.org
+narayanahealth.org
