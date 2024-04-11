@@ -1,0 +1,12 @@
+performance.jamawealth.com
+app.jamawealth.com
+blog.jamawealth.com
+myadvisor.jamawealth.com
+main.jamawealth.com
+careers.main.jamawealth.com
+docker.jamawealth.com
+blog.docker.jamawealth.com
+preferredcircle.jamawealth.com
+club.jamawealth.com
+myadvisory.jamawealth.com
+ref.jamawealth.com

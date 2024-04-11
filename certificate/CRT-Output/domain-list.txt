@@ -1,0 +1,4 @@
+*.jamawealth.com
+jamawealth.com
+lp.jamawealth.com
+www.jamawealth.com

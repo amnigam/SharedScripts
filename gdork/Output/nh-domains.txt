@@ -1,0 +1,8 @@
+internationalpatientcare.narayanahealth.org
+dev.narayanahealth.org
+jobs.narayanahealth.org
+ipc.narayanahealth.org
+excelerate.narayanahealth.org
+uat.narayanahealth.org
+admin.narayanahealth.org
+hospital.narayanahealth.org

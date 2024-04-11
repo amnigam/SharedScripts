@@ -1,0 +1,7 @@
+www.poadmin.qalara.com
+assets.qalara.com
+www.reports.qalara.com
+www.promoadmin.qalara.com
+www.selleradmin.qalara.com
+ticketing.qalara.com
+www.productadmin.qalara.com
