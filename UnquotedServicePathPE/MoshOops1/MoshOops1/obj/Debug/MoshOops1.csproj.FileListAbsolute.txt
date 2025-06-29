@@ -1,0 +1,8 @@
+C:\Users\Amit Nigam\OneDrive\Penetration Testing\SharedScripts\UnquotedServicePathPE\MoshOops1\MoshOops1\bin\Debug\MoshOops1.exe.config
+C:\Users\Amit Nigam\OneDrive\Penetration Testing\SharedScripts\UnquotedServicePathPE\MoshOops1\MoshOops1\bin\Debug\MoshOops1.exe
+C:\Users\Amit Nigam\OneDrive\Penetration Testing\SharedScripts\UnquotedServicePathPE\MoshOops1\MoshOops1\bin\Debug\MoshOops1.pdb
+C:\Users\Amit Nigam\OneDrive\Penetration Testing\SharedScripts\UnquotedServicePathPE\MoshOops1\MoshOops1\obj\Debug\MoshOops1.csproj.AssemblyReference.cache
+C:\Users\Amit Nigam\OneDrive\Penetration Testing\SharedScripts\UnquotedServicePathPE\MoshOops1\MoshOops1\obj\Debug\MoshOops1.csproj.SuggestedBindingRedirects.cache
+C:\Users\Amit Nigam\OneDrive\Penetration Testing\SharedScripts\UnquotedServicePathPE\MoshOops1\MoshOops1\obj\Debug\MoshOops1.csproj.CoreCompileInputs.cache
+C:\Users\Amit Nigam\OneDrive\Penetration Testing\SharedScripts\UnquotedServicePathPE\MoshOops1\MoshOops1\obj\Debug\MoshOops1.exe
+C:\Users\Amit Nigam\OneDrive\Penetration Testing\SharedScripts\UnquotedServicePathPE\MoshOops1\MoshOops1\obj\Debug\MoshOops1.pdb

@@ -1,4 +1,8 @@
-*.jamawealth.com
-jamawealth.com
-lp.jamawealth.com
-www.jamawealth.com
+ssr.sparity.com
+devweb.sparity.com
+devscilicet.sparity.com
+devhackathon.sparity.com
+sparity.com
+ecommercesupport.sparity.com
+gitlab.sparity.com
+*.sparity.com

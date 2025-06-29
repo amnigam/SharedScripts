@@ -1,0 +1,15 @@
+C:\Users\Amit Nigam\OneDrive\Penetration Testing\SharedScripts\UnquotedServicePathPE\ShodanConnect\ShodanConnect\bin\Debug\ShodanConnect.exe.config
+C:\Users\Amit Nigam\OneDrive\Penetration Testing\SharedScripts\UnquotedServicePathPE\ShodanConnect\ShodanConnect\bin\Debug\ShodanConnect.exe
+C:\Users\Amit Nigam\OneDrive\Penetration Testing\SharedScripts\UnquotedServicePathPE\ShodanConnect\ShodanConnect\bin\Debug\ShodanConnect.pdb
+C:\Users\Amit Nigam\OneDrive\Penetration Testing\SharedScripts\UnquotedServicePathPE\ShodanConnect\ShodanConnect\obj\Debug\ShodanConnect.csproj.AssemblyReference.cache
+C:\Users\Amit Nigam\OneDrive\Penetration Testing\SharedScripts\UnquotedServicePathPE\ShodanConnect\ShodanConnect\obj\Debug\ShodanConnect.csproj.SuggestedBindingRedirects.cache
+C:\Users\Amit Nigam\OneDrive\Penetration Testing\SharedScripts\UnquotedServicePathPE\ShodanConnect\ShodanConnect\obj\Debug\ShodanConnect.csproj.CoreCompileInputs.cache
+C:\Users\Amit Nigam\OneDrive\Penetration Testing\SharedScripts\UnquotedServicePathPE\ShodanConnect\ShodanConnect\obj\Debug\ShodanConnect.exe
+C:\Users\Amit Nigam\OneDrive\Penetration Testing\SharedScripts\UnquotedServicePathPE\ShodanConnect\ShodanConnect\obj\Debug\ShodanConnect.pdb
+C:\Users\Amit Nigam\OneDrive\Penetration Testing\SharedScripts\UnquotedServicePathPE\ShodanConnect\ShodanConnect\bin\Debug\System.Text.Json.dll
+C:\Users\Amit Nigam\OneDrive\Penetration Testing\SharedScripts\UnquotedServicePathPE\ShodanConnect\ShodanConnect\bin\Debug\System.Memory.dll
+C:\Users\Amit Nigam\OneDrive\Penetration Testing\SharedScripts\UnquotedServicePathPE\ShodanConnect\ShodanConnect\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Amit Nigam\OneDrive\Penetration Testing\SharedScripts\UnquotedServicePathPE\ShodanConnect\ShodanConnect\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Amit Nigam\OneDrive\Penetration Testing\SharedScripts\UnquotedServicePathPE\ShodanConnect\ShodanConnect\bin\Debug\System.Buffers.dll
+C:\Users\Amit Nigam\OneDrive\Penetration Testing\SharedScripts\UnquotedServicePathPE\ShodanConnect\ShodanConnect\obj\Debug\ShodanConnect.exe.config
+C:\Users\Amit Nigam\OneDrive\Penetration Testing\SharedScripts\UnquotedServicePathPE\ShodanConnect\ShodanConnect\obj\Debug\ShodanConnect.csproj.CopyComplete
