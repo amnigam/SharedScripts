@@ -20,6 +20,7 @@ def check_url_safety(urls : list):
     if not isinstance(urls, list):      # If entered argument is not a list make it.
         urls = [urls] # Ensure it's always a list
 
+    print(f'[+] Testing {len(urls)} links against Google Safebrowsing API...')
     threat_entries = [{"url": url} for url in urls]     # Get it in the format Google wants.
     request_body = {
         "client": {

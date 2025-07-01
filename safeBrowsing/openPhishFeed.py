@@ -13,8 +13,3 @@ def fetch_phish_urls(limit=300):
     except Exception as e:
         print(f"❌ Failed to fetch OpenPhish feed: {e}")
         return []    
-    
-# phishing_links = fetch_phish_urls()
-
-# for link in phishing_links:
-#     print(link)
